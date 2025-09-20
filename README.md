@@ -1,20 +1,20 @@
-# 🎬 Netflix Recommendation Clone
+# Netflix Recommendation Clone
 
-A data science project to build a **movie recommender system** (like Netflix) using the [MovieLens dataset](https://grouplens.org/datasets/movielens/).
+It's a data science project to build a **movie recommender system** (like Netflix) using the datasets.
 
-## 🚀 Features
-- Content-based recommendations (TF-IDF + cosine similarity)
+# Features
+- Have content-based recommendations 
 - Simple Streamlit web app for interaction
-- Extendable to collaborative filtering (future work)
+- Extendable to collaborative filtering
 
-## 📂 Project Structure
+# 📂 Project Structure
 - `data/` → Dataset files (`movies.csv`, `ratings.csv`)
 - `notebooks/` → Jupyter notebooks for exploration
 - `app/` → Streamlit app (`app.py`) + recommender logic (`recommender.py`)
 
-## 🔧 Setup
+#  Setup
 ```bash
-git clone https://github.com/your-username/netflix-recommender-clone.git
+git clone https://github.com/jujesh25/netflix-recommender-clone.git
 cd netflix-recommender-clone
 pip install -r requirements.txt
 
